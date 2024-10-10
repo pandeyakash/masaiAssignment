@@ -1,0 +1,9 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Hides arrows in Firefox */
+input[type="number"] {
+  -moz-appearance: textfield; /* Set to textfield to hide arrows */
+}
