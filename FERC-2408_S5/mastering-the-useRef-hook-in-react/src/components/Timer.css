@@ -1,0 +1,73 @@
+.container {
+  background-color: rgb(237, 237, 244);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.progress-bar-container {
+  width: 50%;
+  height: 10px;
+  background-color: rgb(176, 176, 244);
+  border-radius: 10px;
+}
+
+.progress-bar {
+  background-color: green;
+  height: 100%;
+  transition: width 1s linear, background-color 0.5s ease;
+  border-radius: 10px;
+}
+
+.timer {
+  border: 2px solid rgb(83, 83, 116);
+  width: 30%;
+  margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h3 {
+  color: rgb(83, 83, 116);
+  font-size: 25px;
+}
+
+button {
+  border: 2px solid rgb(83, 83, 116);
+  background-color: white;
+  color: rgb(83, 83, 116);
+  font-weight: 700;
+  font-size: 16px;
+  border-radius: 5px;
+  padding: 8px 12px 8px 12px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+.input {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+input {
+  width: 40%;
+  height: 25px;
+  border: 2px solid rgb(83, 83, 116);
+  border-radius: 5px;
+  padding-left: 5px;
+  color: rgb(83, 83, 116);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.message {
+  color: red;
+  font-size: 18px;
+  font-weight: 700;
+}
